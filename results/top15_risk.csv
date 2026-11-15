@@ -1,0 +1,16 @@
+name,region,risk_index,yield_2014_18_t_ha,yield_trend_pct_yr,yield_volatility_cv_pct,pop_growth_pct_yr
+Somalia,Africa,0.96,0.6,-0.32,27.91,3.59
+Yemen,Asia,0.89,0.78,-1.11,14.53,2.97
+Mozambique,Africa,0.89,0.78,0.34,23.65,2.99
+Zimbabwe,Africa,0.88,0.6,-3.23,26.89,1.64
+Turkmenistan,Asia,0.88,1.15,-5.36,26.29,2.06
+Namibia,Africa,0.87,0.36,0.6,24.99,2.68
+Syria,Asia,0.86,1.47,-0.01,19.84,2.81
+Tanzania,Africa,0.84,1.59,0.16,18.26,3.09
+Central African Republic,Africa,0.83,0.9,0.02,20.47,1.76
+Lesotho,Africa,0.82,0.7,-0.43,26.05,1.17
+Solomon Islands,Oceania,0.82,1.75,-5.72,12.87,2.75
+Gambia,Africa,0.82,0.83,-2.27,9.84,2.41
+Cyprus,Asia,0.81,1.43,-1.95,42.56,1.18
+Botswana,Africa,0.81,0.47,0.81,55.75,1.52
+Jordan,Asia,0.8,1.6,0.05,27.35,1.9
