@@ -64,4 +64,4 @@ results/    atlas.html, indicators.csv, top15_risk.csv, risk_by_region.csv
 - Yield data end in 2018 and nitrogen data in 2017 (FAO via Our World in Data). Population data are World Bank figures through 2025.
 - The hunger and rainfall layers were not included in this build because the build environment had no access to the World Bank API. `fetch_worldbank.py` adds them on any computer with internet access.
 
-**Author:** Saphal Sharma, M.Sc. Sustainable International Agriculture, University of Göttingen
+**Author:** Saphal Sharma, M.Sc. student, Sustainable International Agriculture, University of Göttingen
