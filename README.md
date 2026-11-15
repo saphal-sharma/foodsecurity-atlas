@@ -2,6 +2,13 @@
 
 **▶ Live map: [saphal-sharma.github.io/foodsecurity-atlas](https://saphal-sharma.github.io/foodsecurity-atlas/)**
 
+> **Question:** Which countries face the highest risk to their own cereal production?  
+> **Answer:** Africa's median risk (0.68) is almost twice Europe's (0.36). Highest risk: Somalia, Yemen, Mozambique, Zimbabwe and Turkmenistan.  
+> **Method:** FAO and World Bank data loaded into SQLite; each indicator percentile-ranked in SQL and averaged into a transparent index; interactive Plotly map for 176 countries.
+
+<img src="docs/preview.jpg" alt="FoodSecurity Atlas map" width="720">
+
+
 An interactive world map that compares agricultural production, population pressure, hunger and rainfall across countries, combined into a **transparent risk index**. The data pipeline runs on **SQL (SQLite)** and **Python**, and the map is built with **Plotly**.
 
 Open the interactive map: [`results/atlas.html`](results/atlas.html). Use the dropdown to switch between layers and hover over a country for its values.
