@@ -1,5 +1,7 @@
 # FoodSecurity Atlas: Global Crop and Hunger Risk Map
 
+[![Tests](https://github.com/saphal-sharma/foodsecurity-atlas/actions/workflows/tests.yml/badge.svg)](https://github.com/saphal-sharma/foodsecurity-atlas/actions/workflows/tests.yml)
+
 **▶ Live map: [saphal-sharma.github.io/foodsecurity-atlas](https://saphal-sharma.github.io/foodsecurity-atlas/)**
 
 > **Question:** Which countries face the highest risk to their own cereal production?  
@@ -41,6 +43,10 @@ Open the interactive map: [`results/atlas.html`](results/atlas.html). Use the dr
 The highest-risk countries are **Somalia, Yemen, Mozambique, Zimbabwe and Turkmenistan**. They combine low or falling cereal yields, very volatile harvests and fast population growth. Africa's median risk is almost twice Europe's: its cereal yields are about a quarter of Europe's, and its population grows about nine times faster.
 
 **Interpretation note:** the index measures production risk, not hunger itself. A few countries with small, rainfed cereal sectors but low hunger (for example Cyprus) rank high because their yields are low and volatile. Adding the undernourishment layer corrects much of this. Equal weighting is a simplification.
+
+## How I checked this
+
+- Tests check the World Bank parser and the full SQL indicator view on a small made-up fixture, so the pipeline can be verified without downloading data.
 
 ## Run it
 
